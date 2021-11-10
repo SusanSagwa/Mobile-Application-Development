@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert recipe fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="dessert_recipes">dessert Recipes</string>
+    <string name="browse_recipes">browse recipes</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_and_cook_time_2hrs">Prep and Cook time: 2hrs</string>
+    <string name="recipe_short_description">Recipe Short description</string>
+    <string name="pastries_recipes">Pastries Recipes</string>
+    <string name="stores">Stores</string>
+    <string name="browse_stores">Browse Stores</string>
+
+    <array name="desserts_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ice_cream</item>
+        <item>@drawable/cupcake</item>
+        <item>@drawable/kinderbueno</item>
+        <item>@drawable/jello</item>
+        <item>@drawable/brownie</item>
+        <item>@drawable/milkshake</item>
+        <item>@drawable/macaron</item>
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream</item>
+        <item>Cupcake</item>
+        <item>Kinderbueno</item>
+        <item>Jello</item>
+        <item>Brownies</item>
+        <item>Milkshake</item>
+        <item>Macaron</item>
+    </string-array>
+    <string-array name="dessert_description">
+        <item>Donuts are Glazed and sprinkled with Candy</item>
+        <item>Froyo is a premium self-served yoghurt</item>
+        <item>Ice cream has Chocolate and vanilla feeling</item>
+        <item>Cupcakes are to die for!</item>
+        <item>Kinderbueno is a premium self-served yoghurt</item>
+        <item>Jello has Chocolate and vanilla feeling</item>
+        <item>Brownies are Glazed and sprinkled with Candy</item>
+        <item>Milkshake is a premium self-served yoghurt</item>
+        <item>Macaron has Chocolate and vanilla feeling</item>
+    </string-array>
+
+    <array name="pastries_images">
+        <item>@drawable/eggtoast</item>
+        <item>@drawable/blueberry</item>
+        <item>@drawable/danish</item>
+        <item>@drawable/marzipan</item>
+        <item>@drawable/croissant</item>
+        <item>@drawable/choco</item>
+        <item>@drawable/morning</item>
+        <item>@drawable/pancake</item>
+        <item>@drawable/waffle</item>
+    </array>
+
+    <string-array name="pastries_title">
+        <item>Egg Toast</item>
+        <item>Blueberry Cake</item>
+        <item>Assorted Danish pastry</item>
+        <item>Marzipan</item>
+        <item>Croissant</item>
+        <item>Chocolate Muffin</item>
+        <item>Morning Biscuits</item>
+        <item>Pancake </item>
+        <item>Waffle</item>
+    </string-array>
+    <string-array name="pastries_description">
+        <item>Donuts are Glazed and sprinkled with Candy</item>
+        <item>Froyo is a premium self-served yoghurt</item>
+        <item>Ice cream has Chocolate and vanilla feeling</item>
+        <item>Cupcakes are to die for!</item>
+        <item>Kinderbueno is a premium self-served yoghurt</item>
+        <item>Jello has Chocolate and vanilla feeling</item>
+        <item>Brownies are Glazed and sprinkled with Candy</item>
+        <item>Milkshake is a premium self-served yoghurt</item>
+        <item>Macaron has Chocolate and vanilla feeling</item>
+    </string-array>
+
+    <array name="stores_images">
+        <item>@drawable/jorgensen</item>
+        <item>@drawable/aruba</item>
+        <item>@drawable/honwong</item>
+        <item>@drawable/newjersey</item>
+        <item>@drawable/subway</item>
+        <item>@drawable/puntacana</item>
+
+    </array>
+
+    <string-array name="stores_title">
+        <item>Egg Toast</item>
+        <item>Blueberry Cake</item>
+        <item>Assorted Danish pastry</item>
+        <item>Marzipan</item>
+        <item>Croissant</item>
+        <item>Chocolate Muffin</item>
+
+    </string-array>
+    <string-array name="stores_description">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</item>
+
+    </string-array>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

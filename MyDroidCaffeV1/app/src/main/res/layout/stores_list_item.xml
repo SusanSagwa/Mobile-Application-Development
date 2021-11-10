@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/stores_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/teal_700"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:id="@+id/stores_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_title"
+            android:textColor="@color/purple_200"
+            android:layout_alignBottom="@id/stores_image"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/stores_title"
+            android:background="@color/css_gray"/>
+
+        <TextView
+            android:id="@+id/stores_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_short_description"
+            android:textColor="@color/black"
+            android:layout_below="@id/divider"
+            android:padding="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_marginTop="3dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:textStyle="italic"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00CED1</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+
+    <style name="app_title">
+
+        <item name="android:textColor">@color/gold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+</resources>

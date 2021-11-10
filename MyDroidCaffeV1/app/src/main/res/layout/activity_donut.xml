@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/donut_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/donut_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/teal_700"
+
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:id="@+id/donut_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe_title"
+                android:textColor="@color/purple_200"
+                android:layout_alignBottom="@id/donut_image"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <TextView
+                android:id="@+id/donut_prep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prep_and_cook_time_2hrs"
+                android:textColor="?android:textColorSecondary"
+                android:layout_below="@id/donut_title"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_margin="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                app:drawableStartCompat="@drawable/ic_prep_time"
+                app:drawableLeftCompat="@drawable/ic_prep_time" />
+
+            <View
+                android:id="@+id/donut_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/donut_prep"
+                android:background="@color/css_gray"/>
+
+            <TextView
+                android:id="@+id/donut_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe_short_description"
+                android:textColor="@color/black"
+                android:layout_below="@id/donut_divider"
+                android:padding="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_marginTop="3dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:textStyle="italic"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_below="@id/donut_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to prepare donuts"
+            android:textStyle="bold"
+            android:textColor="@color/navy_blue"/>
+    </RelativeLayout>
+
+</RelativeLayout>

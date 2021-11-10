@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "922174754051",
+    "project_id": "fir-lab-51634",
+    "storage_bucket": "fir-lab-51634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922174754051:android:7f78dbf23307f918f7ad36",
+        "android_client_info": {
+          "package_name": "com.steph.theeattic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922174754051-nc0ihti6spgc121fsdt8u5ela4goqerp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjARjCIhlu1dihXmIsK9ERdWtJfyPXvzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922174754051-nc0ihti6spgc121fsdt8u5ela4goqerp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
